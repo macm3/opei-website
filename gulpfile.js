@@ -11,7 +11,8 @@ gulp.task('development',
 	[
 		'bundle',
 		'watchBundle',
-		'html',
+		'index',
+		'hall_of_fame',
 		'watchHtml',
 		'fonts',
 		'sNcss',
@@ -41,15 +42,23 @@ gulp.task('watchBundle', function(){
 	gulp.watch(path.join(__dirname, 'js', '*.js'), ['bundle']);
 });
 
-gulp.task('html', function() {
+gulp.task('index', function() {
 	return gulp
 				.src('_index.html')
 				.pipe(rename('index.html'))
 				.pipe(gulp.dest(path.join(__dirname, 'bin')));
 });
 
+gulp.task('hall_of_fame', function() {
+	return gulp
+				.src('_hall_of_fame.html')
+				.pipe(rename('hall_of_fame.html'))
+				.pipe(gulp.dest(path.join(__dirname, 'bin')));
+});
+
 gulp.task('watchHtml', function(){
-	gulp.watch(path.join(__dirname, '_index.html'), ['html']);
+	gulp.watch(path.join(__dirname, '_index.html'), ['index']);
+	gulp.watch(path.join(__dirname, '_hall_of_fame.html'), ['hall_of_fame']);
 });
 
 gulp.task('fonts', function() {
