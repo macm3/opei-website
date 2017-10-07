@@ -2,7 +2,7 @@
 
 The PET-Informatica OPEI is the first olympiad of informatics of the state of Pernambuco, in Brazil.
 
-This website is hosted at: https://pet-informatica.github.io/programa-de-ferias
+This website is hosted at: https://pet-informatica.github.io/opei
 
 In order to run this project you must install node.js avaiable here: https://nodejs.org/en/
 
