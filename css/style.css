@@ -2,7 +2,7 @@
     padding: 0 15px;
 }
 
-#about, #models, #join, #exams {padding-top: 4rem;}
+#about, #models, #join, #exams, #history {padding-top: 4rem;}
 
 #index-banner {
     min-height: 632px;
@@ -15,7 +15,6 @@
     box-shadow: none !important;
     -webkit-box-shadow:none !important;
 }
-
 
 .back{
   height: 500px;
@@ -49,8 +48,8 @@
     }
 }
 
-
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
+
 .text_h3 {font-weight: 100;margin-bottom: 4%; line-height: 3rem;}
 
 .span_h2 {font-weight: 300;color: #1c2359;}
@@ -64,10 +63,10 @@
     font-size: 7rem;
     display: block;
 }
+
 .card-content a {color: #1c2359;}
 
 .card-content a:hover {color: #1c2359;}
-
 
 .text_pink{text-color:#EF9A9A;}
 
@@ -79,6 +78,7 @@ nav ul a {
     font-weight: 300;
     padding: 0px 15px;
 }
+
 /* Preloader */
 #preloader {
     position: fixed;
@@ -132,6 +132,10 @@ nav a.button-collapse {
 
 .card-avatar .card-content {
     text-align: center;
+}
+
+.row {
+    margin-top: 15px !important;
 }
 
 .card .card-content p {
